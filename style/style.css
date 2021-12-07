@@ -1,3 +1,25 @@
+:root {
+/* BG-COLOR-SCHEME */
+    --bg-color-ldark: #2f4766;
+    --bg-color-dark: #121e2a;
+/* RED SHADES */
+    --red-light: #f47960;
+    --red-medium: #e74f30;
+    --red-dark: #d92f10;
+/* GREEN SHADES */
+    --green-light: #35df91;
+    --green-medium: #1fba71;
+    --green-dark: #1a8b57;
+/* YELLOW SHADES */
+    --yellow-light: #fac762;
+    --yellow-medium: #f2ae2c;
+    --yellow-dark: #e59807;
+/* BLUE SHADES */
+    --blue-light: #33a9fe;
+    --blue-medium: #028df0;
+    --blue-dark: #0171c1;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -42,7 +64,7 @@ li {
 }
 
 #nav-icon-soc-med {
-    font-size: 28px;
+    font-size: 25px;
 }
 
 #nav-item-2-nav-list ul li a{
