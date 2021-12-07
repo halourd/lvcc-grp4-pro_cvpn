@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: 3px solid rgb(233, 176, 21);
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+
+.nav-item-2 {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+#icon-sets {
+    display: flex; 
+    margin-right: 70px;
+}
+
+#icon-sets a {
+    margin: 0px 10px;
+}
+
+#soc-med-icon-set{
+    margin-right: 20px;
+}
+
+#nav-icon-soc-med {
+    font-size: 28px;
+}
+
+#nav-item-2-nav-list ul li a{
+    border-radius: 50px;
+    height: 100%;
+    padding: 10px 20px;
+}
+
+#nav-item-2-nav-list ul li a:hover{
+    background-color: indigo;
+    color: khaki;
+}
+
