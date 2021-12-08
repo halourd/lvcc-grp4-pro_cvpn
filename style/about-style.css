@@ -26,14 +26,3 @@
 	box-sizing: border-box;
 	font-family: 'Yantramanav', sans-serif;
 }
-.row {
-	display: flex;
-	background-color: #121e2a;
-}
-/* .column-bg-dark {
-	width: 50%;
-} */
-.column-1 img {
-	width: 50%;
-	float: right;
-}
