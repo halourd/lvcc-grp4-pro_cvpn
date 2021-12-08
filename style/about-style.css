@@ -21,8 +21,33 @@
 }
 
 * {
-	/* margin: 0; */
+	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Yantramanav', sans-serif;
+}
+.features-section {
+	background-color: #121e2a;
+}
+
+.flex-features {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	background-color: #1b2e41;
+	width: 100%;
+	height: 100%;
+	margin: 20px;
+}
+.column-1 img {
+	width: 500px;
+	/* padding: 50px 0 50px 20%; */
+}
+.flex-features1 {
+	background-color: #1b2e41;
+	height: ;
+}
+.column-reverse img {
+	width: 1200px;
+	height: 300px;
+	object-fit: cover;
 }
