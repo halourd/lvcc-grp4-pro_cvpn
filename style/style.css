@@ -1,22 +1,52 @@
+:root {
+/* BG-COLOR-SCHEME */
+    --bg-color-ldark: #1b2e41;
+    --bg-color-dark: #121e2a;
+/* RED SHADES */
+    --red-light: #f47960;
+    --red-medium: #e74f30;
+    --red-dark: #d92f10;
+/* GREEN SHADES */
+    --green-light: #35df91;
+    --green-medium: #1fba71;
+    --green-dark: #1a8b57;
+/* YELLOW SHADES */
+    --yellow-light: #fac762;
+    --yellow-medium: #f2ae2c;
+    --yellow-dark: #e59807;
+/* BLUE SHADES */
+    --blue-light: #33a9fe;
+    --blue-medium: #028df0;
+    --blue-dark: hsl(205, 99%, 38%);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Yantramanav', sans-serif;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
+    padding: 5px;
     flex-wrap: wrap;
     align-items: center;
-    border-top: 3px solid rgb(233, 176, 21);
+    border-bottom: 3px solid var(--yellow-light);
+    background-color: var(--bg-color-ldark);
+    
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none;   
 }
 
-li {
+#nav-logo h1 {
+    color: #fac762;
+}
+
+.nav-li-item {
     display: inline;
     list-style-type: none;
     flex-wrap: wrap;
@@ -31,6 +61,7 @@ li {
 #icon-sets {
     display: flex; 
     margin-right: 70px;
+    align-items: center;
 }
 
 #icon-sets a {
@@ -42,17 +73,41 @@ li {
 }
 
 #nav-icon-soc-med {
-    font-size: 28px;
+    display:flex;
+    font-size: 25px;
+    color: white;
 }
 
 #nav-item-2-nav-list ul li a{
-    border-radius: 50px;
+    color: white;
+    border-radius: 9px;
     height: 100%;
     padding: 10px 20px;
 }
 
 #nav-item-2-nav-list ul li a:hover{
-    background-color: indigo;
-    color: khaki;
+    background-color: var(--yellow-light);
+    color: var(--bg-color-dark);
+    font-weight: bold;
+}
+
+/* MAIN CONTENT  */
+
+.hero {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/hero-image-world.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-text h1 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 60%;
+    margin-left: 100px;
+
 }
 
