@@ -154,6 +154,8 @@ a {
     background-color: var(--green-medium);
     box-shadow: 1px 1px 50px var(--green-medium);
     color: white;
+
+    
 }
 
 /*FEATURE-ITEMS*/
@@ -162,7 +164,7 @@ a {
     padding: 50px;
     border-radius: 10px;
     /* background-color: var(--bg-color-dark); */
-    box-shadow: 1px 1px 50px rgb(65, 65, 65);
+    box-shadow: 1px 1px 30px rgb(65, 65, 65);
 }
 
 .main-feature-items-container {
