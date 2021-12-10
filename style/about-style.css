@@ -36,8 +36,8 @@ p {
 	margin: 30px;
 	padding: 50px;
 	border-radius: 10px;
-	box-shadow: 1px 1px 30px rgb(65, 65, 65);
-	background-color: white;
+	/* box-shadow: 1px 1px 30px rgb(65, 65, 65);
+	background-color: white; */
 }
 .feature-wrapper {
 	margin: 30px;
@@ -46,9 +46,17 @@ p {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 	align-items: center;
-	background-color: var(--bg-color-ldark);
+	/* background-color: var(--bg-color-ldark); */
 	border-radius: 10px;
 	padding: 40px 0 40px 40px;
+}
+.feature-content:hover,
+.feature-content-reverse:hover,
+.feature-big-content:hover,
+.feature-content-1:hover {
+	background-color: var(--bg-color-ldark);
+	box-shadow: 1px 1px 30px rgb(65, 65, 65);
+	transform: scale(1.01, 1.01);
 }
 #feature-text {
 	color: black;
@@ -76,9 +84,14 @@ p {
 	display: grid;
 	grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
 	align-items: center;
-	background-color: var(--bg-color-ldark);
+	/* background-color: var(--bg-color-ldark); */
 	border-radius: 10px;
 }
+/* .feature-big-content:hover {
+	background-color: var(--bg-color-ldark);
+	box-shadow: 1px 1px 30px rgb(65, 65, 65);
+	transform: scale(1.01, 1.01);
+} */
 #big-image img {
 	width: 1126px;
 	height: 300px;
@@ -90,10 +103,15 @@ p {
 	display: flex;
 	flex-direction: row-reverse;
 	align-items: center;
-	background-color: var(--bg-color-ldark);
+	/* background-color: var(--bg-color-ldark); */
 	border-radius: 10px;
 	padding: 40px 0 40px 40px;
 }
+/* .feature-content-reverse:hover {
+	background-color: var(--bg-color-ldark);
+	box-shadow: 1px 1px 30px rgb(65, 65, 65);
+	transform: scale(1.01, 1.01);
+} */
 .left-image img {
 	max-width: 520px;
 	border-radius: 10px;
@@ -102,7 +120,13 @@ p {
 	display: flex;
 	align-items: center;
 	text-align: center;
+	border-radius: 10px;
 }
+/* .feature-content-1:hover{
+	background-color: var(--bg-color-ldark);
+	box-shadow: 1px 1px 30px rgb(65, 65, 65);
+	transform: scale(1.01, 1.01);
+} */
 #feature-text-1 {
 	position: absolute;
 	color: white;
@@ -110,8 +134,8 @@ p {
 	max-width: 50%;
 }
 #image-bt img {
-	width: 1126px;
-	height: 370px;
+	width: 1129px;
+	height: 371px;
 	object-fit: cover;
 	border-radius: 10px;
 }
