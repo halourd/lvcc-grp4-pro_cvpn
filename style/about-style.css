@@ -26,25 +26,32 @@
 	box-sizing: border-box;
 	font-family: 'Yantramanav', sans-serif;
 }
-.features-section {
-	background-color: #121e2a;
+.main-features {
+	margin: 30px;
+	padding: 50px;
+	border-radius: 10px;
+	/* background-color: var(--bg-color-dark); */
+	box-shadow: 1px 1px 30px rgb(65, 65, 65);
+	background-color: var(--bg-color-dark);
 }
 
 .flex-features {
-	display: grid;
-	grid-template-columns: 50% 50%;
-	background-color: #1b2e41;
-	width: 100%;
-	height: 100%;
-	margin: 20px;
+	display: flex;
+	background-color: var(--bg-color-ldark);
+	border-radius: 10px;
+	margin-bottom: 20px;
 }
 .column-1 img {
-	width: 500px;
-	/* padding: 50px 0 50px 20%; */
+	/* width: 100%; */
+	max-width: 400px;
+	height: auto;
+
+	padding: 50px 0 50px 20%;
 }
 .flex-features1 {
-	background-color: #1b2e41;
-	height: ;
+	background-color: var(--bg-color-ldark);
+	border-radius: 10px;
+	/* height: ; */
 }
 .column-reverse img {
 	width: 1200px;
