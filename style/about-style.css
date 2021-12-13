@@ -34,13 +34,15 @@ p {
 }
 .main-features {
 	margin: 30px;
-	padding: 50px;
+	padding: 30px;
 	border-radius: 10px;
 	/* box-shadow: 1px 1px 30px rgb(65, 65, 65);
 	background-color: white; */
 }
 .feature-wrapper {
-	margin: 30px;
+	margin: auto;
+	max-width: 1738px;
+
 }
 .feature-content {
 	display: grid;
