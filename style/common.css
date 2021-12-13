@@ -108,6 +108,11 @@ li {
   color: white;
 }
 
+#nav-icon-soc-med:hover {
+  color: rgb(244,156,78);
+  color: linear-gradient(180deg, rgba(244,156,78,1) 0%, rgba(250,205,121,1) 100%);
+}
+
 #nav-item-2-nav-list ul li a {
   color: white;
   border-radius: 4px;

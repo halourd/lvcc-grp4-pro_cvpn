@@ -87,6 +87,7 @@
     border-radius: 6.46px;
     padding: 15px 20px;
     animation: text-animate 2s;
+    
 }
 
 #hero-btn a:hover{
@@ -94,6 +95,7 @@
     background: linear-gradient(180deg, rgba(244,156,78,1) 0%, rgba(250,205,121,1) 100%);
     box-shadow: 1px 1px 20px rgb(244,156,78);
     color: white;
+    
     
 }
 
@@ -428,7 +430,7 @@
 }
 
 .about-profiles:hover{
-    transform: scale(1.1, 1.1);
+    transform: scale(1.03, 1.03);
     background: rgb(244,156,78);
     background: linear-gradient(180deg, rgba(244,156,78,1) 0%, rgb(250, 205, 121) 100%);
     box-shadow: 1px 1px 30px gray;
