@@ -30,10 +30,16 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Yantramanav', sans-serif;
+    transition: ease-in-out 0.2s;
+    
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+section {
+    transition: ease-in-out 0.3s;
 }
 
 
@@ -148,22 +154,22 @@ li {
 }
 @keyframes hero-bg-animate {
     0% {
-        transform: scale(2, 2);
+        background-size: 1920px 1080px;
     }
 
     100%{
-        transform: scale(1, 1);
+        background-size: 100% 100%;
     }
 }
 
 @keyframes text-animate {
     0% {
-        transform: translateY(-1);
+        transform: scale(0.8, 0.8);
         opacity: 0;
     }
 
     100% {
-        transform: translateY(1);
+        transform: translateY(1, 1);
         opacity: 1;
     }
 
@@ -179,6 +185,7 @@ li {
     background: linear-gradient(54deg, rgba(250,205,121,1) 12%, rgba(18,30,42,1) 12%, rgba(18,30,42,1) 88%, rgba(250,205,121,1) 88%);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    animation: hero-bg-animate 2.5s;
     transition: ease-in-out 0.2s;
     background-size: cover;
     width: 100%;
@@ -209,7 +216,7 @@ li {
     font-family: 'Raleway', sans-serif;
     color: white;
     font-size: 60px;
-    animation: text-animate 3s;
+    animation: text-animate 2s;
 }
 
 .hero-text p {
