@@ -44,7 +44,7 @@ p {
 }
 .feature-content {
 	display: grid;
-	grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+	grid-template-columns: 50% 50%;
 	align-items: center;
 	/* background-color: var(--bg-color-ldark); */
 	border-radius: 10px;
@@ -73,7 +73,8 @@ p {
 }
 .btn-1:hover {
 	background-color: transparent;
-	border: 2px solid var(--yellow-dark);
+	box-shadow: 1px 1px 90px rgba(244, 156, 78, 1);
+	border: 2px solid var(--yellow-medium);
 }
 .right-image img {
 	max-width: 500px;
