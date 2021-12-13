@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@900&family=Yantramanav:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/d9f094510e.js" ></script>
+
 </head>
 <body>
     <header class="nav-header">
@@ -54,22 +54,26 @@
 
     <section id="contact-us-container">
         <div class="form-wrap">
-            <form>
+            <form id="form">
                 <h3>Contact Us</h3>
-                <div class="form-block" id="first-name" >
-                    <input type="text" aria-label="first-name" placeholder="First name" autofocus>
+                <div class="form-block"">
+                    <span class="ast-container"></span>
+                    <input type="text" aria-label="first-name"  placeholder="First name" id="first-name" class="required" autofocus>
                 </div>
 
-                <div class="form-block" id="last-name">
-                    <input type="text" aria-label="#" placeholder="Last name">
+                <div class="form-block">
+                    <span class="ast-container"></span>
+                    <input type="text" aria-label="#" placeholder="Last name" id="last-name">
                 </div>
 
-                <div class="form-block" id="email-addr">
-                    <input type="email" aria-label="email-addr" placeholder="Email address">
+                <div class="form-block">
+                    <span class="ast-container"></span>
+                    <input type="email" aria-label="email-addr" placeholder="Email address" id="email-addr">
                 </div>
 
                 <div class="form-block" id="question-box">
-                    <textarea name="question-box" id="question-box" cols="30" rows="30" placeholder="Enter your Question"></textarea>
+                    <span class="ast-container"></span>
+                    <textarea name="question-box" cols="30" rows="30" placeholder="Enter your Question"></textarea>
                 </div>
 
                 <button type="submit" id="submit-btn">Submit</button>
@@ -132,5 +136,7 @@
             </div>
         </div>
     </footer>
+    <script src="https://kit.fontawesome.com/d9f094510e.js" ></script>
+    <script src="/js/validate.js"></script>
 </body>
 </html>
