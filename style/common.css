@@ -137,6 +137,11 @@ li {
     position: relative;
   }
 
+  #main-feature-container,
+  #features-container{
+    padding: 0px;
+  }
+
   #nav-logo-1 {
     display: none;
   }
