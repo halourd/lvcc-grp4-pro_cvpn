@@ -120,7 +120,8 @@
 
 .main-feature-items-container {
     display: grid;
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 2fr;
 }
 
 .side-icon {
@@ -163,7 +164,19 @@
 .feature-item-btn:hover {
     background-color: var(--yellow-medium);
     color: white;
-    
+}
+
+#main-features-btn {    
+    display: flex;
+    justify-content: ;
+    justify-content: center;
+    background: rgb(244,156,78);
+    background: linear-gradient(0deg, rgba(244,156,78,1) 0%, rgba(250,205,121,1) 100%);
+    padding: 20px 30px;
+    color: white;
+    font-weight: 900;
+    font-size: 24ox;
+    margin: 50px auto;
 }
 
 #features-container {
