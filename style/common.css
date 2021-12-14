@@ -37,6 +37,8 @@ html {
   scroll-behavior: smooth;
 }
 
+
+
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -122,10 +124,21 @@ li {
 }
 
 #nav-item-2-nav-list ul li a:hover {
+    background: -webkit-linear-gradient(#facd79, #f49c4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ 
+}
+
+#nav-item-2-nav-list ul li a:active{
+  color: white;
   background: rgb(244, 156, 78);
   background: linear-gradient(180deg, rgba(244, 156, 78, 1) 0%, rgba(250, 205, 121, 1) 100%);
-  color: var(--bg-color-dark);
- 
+
+}
+
+#nav-item-2-nav-list ul li a:visited{
+  background: var(--yellow-light);
 }
 
 @media screen and (max-width: 789px) {
@@ -185,7 +198,12 @@ li {
   list-style-type: none;
   color: var(--foot-li);
 }
+.footer-item-block ul li a:hover{
+  background: -webkit-linear-gradient(#facd79, #f49c4e);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 
+}
 .footer-container-2 {
   display: flex;
   justify-content: space-between;
@@ -212,4 +230,31 @@ li {
 #footer-icon-sets .fa-brands {
   color: white;
   font-size: 20px;
+}
+
+
+
+@keyframes hero-bg-animate {
+  0% {
+      background-size: 1920px 1080px;
+  }
+
+  100%{
+      background-size: 100% 100%;
+  }
+}
+
+@keyframes text-animate {
+  0% {
+      transform: scale(0.8, 0.8);
+      opacity: 0;
+      letter-spacing: -10px;
+  }
+
+  100% {
+      transform: translateY(1, 1);
+      opacity: 1;
+      letter-spacing: 0px;
+  }
+
 }

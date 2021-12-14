@@ -1,27 +1,4 @@
 
-@keyframes hero-bg-animate {
-    0% {
-        background-size: 1920px 1080px;
-    }
-
-    100%{
-        background-size: 100% 100%;
-    }
-}
-
-@keyframes text-animate {
-    0% {
-        transform: scale(0.8, 0.8);
-        opacity: 0;
-    }
-
-    100% {
-        transform: translateY(1, 1);
-        opacity: 1;
-    }
-
-}
-
 /* MAIN CONTENT  */
 
 .home-sections {
@@ -31,8 +8,8 @@
     background: linear-gradient(54deg, rgba(250,205,121,1) 12%, rgba(18,30,42,1) 12%, rgba(18,30,42,1) 88%, rgba(250,205,121,1) 88%);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    animation: hero-bg-animate 2.5s;
-    transition: ease-in-out 0.2s;
+    animation: hero-bg-animate 2s;
+    transition: ease 0.7s;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -60,15 +37,24 @@
 
 .hero-text h1 {
     font-family: 'Raleway', sans-serif;
+    
     color: white;
+    text-align: center;
     font-size: 60px;
-    animation: text-animate 2s;
+    animation: text-animate 1.4s;
 }
 
 .hero-text p {
     color: rgba(255, 255, 255, 0.582);
     text-align: center;
     margin: 10px 0px;
+}
+
+.hero-text h1 #privacy {
+    font-family: 'Raleway', sans-serif;
+    background: -webkit-linear-gradient(#facd79, #f49c4e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 #hero-btn {
@@ -86,7 +72,7 @@
     color: linear-gradient(180deg, rgba(244,156,78,1) 0%, rgba(250,205,121,1) 100%);
     border-radius: 6.46px;
     padding: 15px 20px;
-    animation: text-animate 2s;
+    /* animation: text-animate 1s; */
     
 }
 
@@ -102,6 +88,9 @@
 /*FEATURE-ITEMS*/
 
 #main-feature-container {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
     padding: 40px;
 }
 #main-features {
@@ -121,7 +110,6 @@
 .main-feature-items-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 2fr;
 }
 
 .side-icon {
@@ -167,16 +155,20 @@
 }
 
 #main-features-btn {    
-    display: flex;
-    justify-content: ;
-    justify-content: center;
+    border-radius: 10px;
+    outline: none;
+    border: none;
     background: rgb(244,156,78);
     background: linear-gradient(0deg, rgba(244,156,78,1) 0%, rgba(250,205,121,1) 100%);
     padding: 20px 30px;
-    color: white;
+    color: var(--bg-color-dark);
     font-weight: 900;
-    font-size: 24ox;
-    margin: 50px auto;
+    font-size: 18px;
+    margin: 30px auto;
+}
+#main-features-btn:hover {
+    transform: scale(1.03, 1.03);
+    box-shadow: 1px 1px 10px rgb(65, 65, 65);
 }
 
 #features-container {

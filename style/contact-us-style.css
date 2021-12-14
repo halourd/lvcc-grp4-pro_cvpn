@@ -39,7 +39,7 @@
 .form-block input {
     width: 100%;
     padding: 10px 15px;
-    border: 1px solid #bbb;
+    border: 1px solid var(--bg-color-darker);
     border-radius: 4px;
 }
 
@@ -49,10 +49,11 @@
 
 #question-box textarea {
     height: 100%;
-    border: 1px solid #bbb;
+    border: 1px solid var(--bg-color-darker);
     padding: 10px 15px;
     width: 100%;
     resize: none;
+    border-radius: 4px;
 }
 
 
