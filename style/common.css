@@ -147,6 +147,7 @@ li {
   #nav-container {
     position: relative;
   }
+  
 
   #main-feature-container,
   #features-container{
@@ -165,6 +166,10 @@ li {
 
   #nav-logo-2 {
     display: inline;
+  }
+  
+  #submit-success {
+    margin: 20px;
   }
 
 
