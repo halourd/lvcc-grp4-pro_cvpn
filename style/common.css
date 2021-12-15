@@ -37,8 +37,6 @@ html {
   scroll-behavior: smooth;
 }
 
-
-
 .nav-container {
   display: flex;
   justify-content: space-between;
@@ -104,7 +102,7 @@ li {
   margin-right: 20px;
 }
 
-#nav-icon-soc-med {
+.nav-icon-soc-med {
   display: flex;
   font-size: 25px;
   color: white;
@@ -155,6 +153,12 @@ li {
     padding: 0px;
   }
 
+  .main-feature-items-container {
+    display: grid;
+    text-align: center;
+    grid-template-columns: repeat(auto-fit ,minmax(200px, 1fr));
+}
+
   #nav-logo-1 {
     display: none;
   }
@@ -163,11 +167,16 @@ li {
     display: inline;
   }
 
+
   .nav-header {
     position: unset;
     top: unset;
     z-index: 1;
   }
+
+  .about-header p{
+    margin: 20px;
+}
 }
 
 /* FOOTER  */

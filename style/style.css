@@ -109,7 +109,7 @@
 
 .main-feature-items-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit ,minmax(450px, 1fr));
 }
 
 .side-icon {
@@ -393,7 +393,7 @@
 
 .about-header p{
     font-size: 16px;
-    margin: 20px;
+    margin: 20px 12rem;
 }
 
 .about-profiles .prof-pic {

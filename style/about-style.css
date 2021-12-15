@@ -53,6 +53,7 @@ section {
     rgba(250, 205, 121, 1) 88%
   );
   background-size: 100vh;
+  background-size: cover;
 }
 
 .main-features {
@@ -241,3 +242,4 @@ section {
   object-fit: cover;
   border-radius: 10px;
 }
+
