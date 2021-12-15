@@ -74,6 +74,29 @@
     color: white;
 }
 
+#submit-success {
+    /* display: ; */
+    display: none;
+    text-align: center;
+    margin: 30vh;
+}
+
+#thank-you p {
+    display: inline;
+}
+
+#thank-you h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    margin: 10px auto;
+}
+
+.txt-container,
+section {
+    
+}
+
+
 
 /* FOR VALIDATION  */
 
@@ -89,7 +112,7 @@
 } 
 
 .ast-container {
-    display: block;
+    /* display: block; */
     font-size: 12px;
     color: red;
 }
